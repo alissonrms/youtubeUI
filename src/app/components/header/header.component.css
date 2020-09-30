@@ -1,0 +1,97 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #202020;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+header mat-icon:not(.findButtonIcon) {
+  color: #fff;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .left {
+  justify-content: left;
+  flex: 1;
+}
+
+header .left a {
+  margin-left: 15px;
+  padding-top: 3px;
+}
+
+header .center {
+  justify-content: left;
+  padding-left: 30px;
+  flex: 2
+}
+
+header .right {
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 35px;
+}
+
+
+header .center input {
+  height: 30px;
+  background-color: #181818;
+  border: 1px solid #313131;
+  padding: 7px;
+  display: inline-block;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-sizing: border-box;
+  width: 75%;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+header .center input:focus {
+  border: 1px solid #4700ec;
+}
+
+header .center button {
+  height: 30px;
+  width: 9%;
+  border-radius: 0%;
+  background-color: #313131;
+  border: 2px solid #313131;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+}
+
+header .center button:focus {
+  border: 1px solid #4700ec;
+}
+
+header .findButtonIcon {
+  color: #6f6f6f;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+header .profileIcon {
+  border-radius: 50%;
+  margin-left: 25px;
+  background-color: #202020;
+}
+
+header .right mat-icon {
+  margin-left: 25px;
+}
